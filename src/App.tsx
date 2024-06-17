@@ -69,7 +69,7 @@ export default function App() {
         className="flex flex-col gap-500 z-0"
         onSubmit={handleSubmit(onSubmit)}
       >
-        <Heading>Contact Us</Heading>
+        <Heading><h1 className="-mb-100">Contact Us</h1></Heading>
         <fieldset className="flex flex-row gap-300 items-start max-w-full flex-wrap">
           <WithErrorMessages
             className="items-stretch flex-grow"
