@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  [type='radio']:checked {
+    background-image: url("./assets/images/icon-radio-selected.svg");
+    background-size: 105% 105%;
+  }
+  [type='checkbox']:checked {
+    background-image: url("./assets/images/icon-checkbox-check.svg");
+  }
+}
+
+:root {
+  --grey-900: hsl(187, 24%, 22%);
+  --grey-500: hsl(186, 15%, 59%);
+  --red: hsl(0, 66%, 54%);
+  --green-200: hsl(148, 38%, 91%);
+  --green-600: hsl(169, 82%, 27%);
+  --green-600-darker: hsl(169, 82%, 14%);
+
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 150%;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100%;
+}
