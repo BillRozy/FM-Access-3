@@ -12,7 +12,7 @@ export default function Checkbox({className = "", register, label, required = fa
       )}
     >
       <input
-        className={`size-[18px] bg-transparent text-transparent border-2 rounded-sm border-grey-500 cursor-pointer focus:border-green-600 focus:ring-transparent checked:border-transparent`}
+        className={`size-[18px] m-[3px] bg-transparent text-transparent border-2 rounded-sm border-grey-500 cursor-pointer focus:border-green-600 focus:ring-transparent checked:border-transparent`}
         type="checkbox"
         {...register}
       />
